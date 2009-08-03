@@ -7,7 +7,7 @@ let et = g:snip_end_tag
 let cd = g:snip_elem_delim
 
 exec "Snippet e <%- end -%>"
-exec "Snippet = <%= ".st."variable".et." %>".st.et
+exec "Snippet = <%= ".st.et." -%>"
 exec "Snippet t <%- ".st.et." -%>"
 exec "Snippet b <%- box :".st.et." do -%>"
 exec "Snippet el <%- else -%>"
@@ -18,7 +18,7 @@ exec "Snippet rns render :nothing => ".st."true".et.", :status => ".st.et.st.et
 exec "Snippet ri render :inline => \"".st.et."\")>\"".st.et
 exec "Snippet rt render :text => \"".st.et."\"".st.et
 exec "Snippet mcc t.column \"".st."title".et."\", :".st."string".et.st.et
-exec "Snippet rpl render :partial => \"".st."item".et."\", :locals => { :".st."name".et." => \"".st."value".et."\"".st.et." }".st.et
+exec "Snippet rpl render :partial => '".st."item".et."', :locals => { ".st.et." }"
 exec "Snippet rea redirect_to :action => \"".st."index".et."\"".st.et
 exec "Snippet rtlt render :text => \"".st.et."\", :layout => ".st."true".et.st.et
 exec "Snippet ft <%= form_tag :action => \"".st."update".et."\" %>".st.et
