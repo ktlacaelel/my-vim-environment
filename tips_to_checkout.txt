@@ -1,0 +1,44 @@
+
+  http://kaoriya.net/#VIM
+  http://code.google.com/p/macvim-kaoriya/
+  http://github.com/kana/vim/tree/master
+  http://github.com/ujihisa/vmjolts/tree/master
+
+  :help
+    - vimrc
+    - it
+    - local-additions
+    - CTRL-B
+    - c_CTRL-B
+    - c_CTRL-B-gone
+    - CTRL-W_CTRLB
+    - exclusive
+    - ctrl-b
+    - daw
+    - complete
+    - user-manual
+    - reference_doc
+    - sys-file-list
+    - tips
+    - ctrl-h a
+
+
+Bindings
+  - dw
+  - y}
+  - =][
+  - dd
+  - yy
+  - ==
+  - dit
+  - yas
+  - gqip
+
+PLUGINS
+
+  - surround
+  - arpegio
+  - a.vim
+  - rails.vim
+  - taglist.vim
+  - text-object.vim
