@@ -1,6 +1,9 @@
 " Ruby
 au BufNewFile,BufRead *.rb,*.rbw,*.gem,*.gemspec	set filetype=ruby
 
+" Prawn
+au BufNewFile,BufRead *.prawn,*.prawnto,*.pdf.prawn	set filetype=ruby
+
 " Ruby on Rails
 au BufNewFile,BufRead *.builder,*.rxml,*.rjs		set filetype=ruby
 
