@@ -16,6 +16,7 @@ set fencs=utf-8,iso-2022-jp,euc-jp,cp932
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 set laststatus=2
 " * turns spelling feature on!
-" setlocal spell spelllang=en_us
+setlocal spell spelllang=en_us
 set clipboard=unnamed
 set nocompatible
+autocmd! BufNewFile * silent! 0r ~/.vim/skel/template.%:e
