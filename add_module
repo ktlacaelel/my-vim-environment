@@ -1,0 +1,1 @@
+git submodule add http://github.com/tpope/$1.git bundle/$1
