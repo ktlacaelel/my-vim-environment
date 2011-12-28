@@ -1,3 +1,27 @@
+" Use Vim settings, rather then Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+
+" In many terminal emulators the mouse works just fine, thus enable it.
+if has('mouse')
+  set mouse=a
+endif
+
+" Switch syntax highlighting on, when the terminal has colors
+" Also switch on highlighting the last used search pattern.
+if &t_Co > 2 || has("gui_running")
+  syntax on
+  set hlsearch
+endif
+
+" Convenient command to see the difference between the current buffer and the
+" file it was loaded from, thus the changes you made.
+" Only define it when not defined already.
+if !exists(":DiffOrig")
+  command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
+      \ | wincmd p | diffthis
+endif
+
 " set lines=35 columns=147
 "set backspace=indent,eol,start
 set ff=unix fenc=utf-8 enc=utf-8
@@ -18,5 +42,4 @@ set laststatus=2
 " * turns spelling feature on!
 " setlocal spell spelllang=en_us
 set clipboard=unnamed
-set nocompatible
 autocmd! BufNewFile * silent! 0r ~/.vim/skel/template.%:e
