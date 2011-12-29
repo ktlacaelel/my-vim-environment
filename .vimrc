@@ -1,9 +1,13 @@
 
-source ~/.vim/ftplugin/eatchar.vim
 source ~/.vim/ftplugin/personal_settings.vim
+source ~/.vim/ftplugin/eatchar.vim
 source ~/.vim/ftplugin/personal_abbreviations.vim
 source ~/.vim/ftplugin/visual_html_tag_wrap.vim
 source ~/.vim/ftplugin/whitespace_highlight.vim
+source ~/.vim/ftplugin/auto_tabularize.vim
+source ~/.vim/ftplugin/remember_last_position.vim
+source ~/.vim/ftplugin/omni_completions.vim
+
 source $VIMRUNTIME/macros/matchit.vim
 
 " * load rails documentation
@@ -23,5 +27,5 @@ compiler ruby
 " :help!
 " :help mapmode-nvo    (comment about :nunmap)
 " :help UserGettingBored
-
+" "setlocal spell spelllang=en_us
 
