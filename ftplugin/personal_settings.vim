@@ -27,7 +27,7 @@ endif
 set ff=unix fenc=utf-8 enc=utf-8
 set expandtab tabstop=4 shiftwidth=4 softtabstop=4 textwidth=70
 set foldmarker={{{,}}} foldmethod=marker incsearch hls
-set autoindent nobackup history=200 ruler showcmd
+set autoindent nobackup history=10000 ruler showcmd
 set shiftwidth=2
 set tabstop=2
 set expandtab
