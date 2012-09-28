@@ -6,5 +6,5 @@ set listchars=trail:%
 set list
 
 " remove whitespace when saving
-autocmd BufWritePre * :%s/\s\+$//e
+" "autocmd BufWritePre * :%s/\s\+$//e
 
