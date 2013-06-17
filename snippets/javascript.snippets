@@ -1,3 +1,35 @@
+# try
+snippet try
+	try {
+		${1:condition}
+	} catch (error) {
+		${2:handle error!}
+	}
+# forEach
+snippet fore 
+	forEach(function (${1:item}) {
+		$1.${2:}
+	});
+snippet con
+	console.log(${1:something});${2:}
+snippet cons 
+	console.log('${1:something}');${2:}
+# logger.log
+snippet log
+	logger.log(${1:something});${2:}
+# require
+snippet r
+	require('${1:file}');
+	${2:// continue coding here..}
+# Neon Class
+snippet c
+	Class(${1:scope}, '${2:`Camelize(Filename())`}')${3:}({
+		prototype : {
+			init : function init(config) {
+				${4:// body...}
+			}
+		}
+	});
 # Prototype
 snippet proto
 	${1:class_name}.prototype.${2:method_name} =
@@ -11,10 +43,30 @@ snippet fun
 	}
 # Anonymous Function
 snippet f
-	function(${1}) {${2}};
+	function ${1:name}(${2:argument}) {
+		${3:code}
+	}
+snippet cap
+	${1:source}(function ${2:methodName}(${3:argument}) {
+		${4:code}
+	});
+snippet fu
+	/**
+	 * ${1:what it does in one line.}
+	 */
+	${2:methodName} : function $2(${3:arguments}) {
+		${4:implementation}
+	},
 # if
 snippet if
-	if (${1:true}) {${2}};
+	if (${1:true}) {
+		${2}
+	}
+# else
+snippet else
+	else {
+		${1: else what?}
+	}
 # if ... else
 snippet ife
 	if (${1:true}) {${2}}
@@ -40,14 +92,14 @@ snippet case
 	${3}
 # for (...) {...}
 snippet for
-	for (var ${2:i} = 0; $2 < ${1:Things}.length; $2${3:++}) {
+	for (var ${2:needle} = 0; $2 < ${1:collection}.length; $2${3:++}) {
 		${4:$1[$2]}
-	};
+	}
 # for (...) {...} (Improved Native For-Loop)
 snippet forr
-	for (var ${2:i} = ${1:Things}.length - 1; $2 >= 0; $2${3:--}) {
+	for (var ${2:needle} = ${1:collection}.length - 1; $2 >= 0; $2${3:--}) {
 		${4:$1[$2]}
-	};
+	}
 # while (...) {...}
 snippet wh
 	while (${1:/* condition */}) {
@@ -57,7 +109,7 @@ snippet wh
 snippet do
 	do {
 		${2:/* code */}
-	} while (${1:/* condition */});
+	} while (${1:/* condition */})
 # Object Method
 snippet :f
 	${1:method_name}: function(${2:attribute}) {

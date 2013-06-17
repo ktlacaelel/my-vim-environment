@@ -1,3 +1,91 @@
+# Anchor
+snippet cit
+
+	[${1:citation number}](#citation$1)
+
+	1. ($1) [${2:Title}](${3:Link}) <a id="citation$1"></a>
+
+# Anchor
+snippet a
+	1. [${1:Some title here}](#${2:anchor_name})
+	${3:}
+
+	<a id="$2"></a>
+	# $1
+# Spec
+snippet spec
+	# Introduction
+
+	${1:What this is about?}
+
+	# Index
+	
+	1. [Problem](#problem)
+	1. [Questions](#questions)
+	1. [Requirements](#requirements)
+	1. [Constraints](#constraints)
+	1. [Observe](#observe)
+	1. [Hypothesis](#hypothesis)
+	1. [Experiments](#experiments)
+	1. [Dependancies](#dependancies)
+	1. [Black Box](#black_box)
+	1. [Theory of Operation](#theory_of_operation)
+	1. [Tecnical Spec](#technical_spec)
+	1. [Functional Spec](#functional_spec)
+	1. [Notes](#notes)
+	1. [Sources](#sources)
+	
+	<a id="problem"></a>
+	# Problem
+
+	${2:What do we need to solve?}
+
+	<a id="questions"></a>
+	# Questions
+	
+	<a id="requirements"></a>
+	# Requirements
+	
+	<a id="constraints"></a>
+	# Constraints
+	
+	<a id="observe"></a>
+	# Observe
+	
+	<a id="hypothesis"></a>
+	# Hypothesis
+
+	If ..........(I do this) .........., then ..........(this).......... will happen.
+
+	http://www.sciencebuddies.org/science-fair-projects/project_hypothesis.shtml#hypothesis
+
+	1. Dependent Variable: (You measure how much you give)
+	1. Independent Variable: (You measure its output)
+	
+	<a id="experiments"></a>
+	# Experiments
+	
+	<a id="dependancies"></a>
+	# Dependancies
+	
+	<a id="black_box"></a>
+	# Black Box
+	
+	<a id="theory_of_operation"></a>
+	# Theory of Operation
+	
+	<a id="technical_spec"></a>
+	# Tecnical Spec
+	
+	<a id="functional_spec"></a>
+	# Functional Spec
+	
+	<a id="notes"></a>
+	# Notes
+	
+	<a id="sources"></a>
+	# Sources
+
 # [link][]
 snippet []
 	[${1:link_id}][]${2}
