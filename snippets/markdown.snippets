@@ -1,10 +1,16 @@
 # Anchor
 snippet cit
+	[$2](#citation${1:Citation Number})
+	1. ${2:Title} ${3:Link}
+				<a id="citation$1"></a>
+	${4:}
+# Question
+snippet q
+	${1:Question}?
 
-	[${1:citation number}](#citation$1)
+		${2:answer}
 
-	1. ($1) [${2:Title}](${3:Link}) <a id="citation$1"></a>
-
+	${3:next question}
 # Anchor
 snippet a
 	1. [${1:Some title here}](#${2:anchor_name})
@@ -29,9 +35,8 @@ snippet spec
 	1. [Experiments](#experiments)
 	1. [Dependancies](#dependancies)
 	1. [Black Box](#black_box)
-	1. [Theory of Operation](#theory_of_operation)
-	1. [Tecnical Spec](#technical_spec)
 	1. [Functional Spec](#functional_spec)
+	1. [Program Spec](#program_spec)
 	1. [Notes](#notes)
 	1. [Sources](#sources)
 	
@@ -71,14 +76,11 @@ snippet spec
 	<a id="black_box"></a>
 	# Black Box
 	
-	<a id="theory_of_operation"></a>
-	# Theory of Operation
-	
-	<a id="technical_spec"></a>
-	# Tecnical Spec
-	
 	<a id="functional_spec"></a>
 	# Functional Spec
+	
+	<a id="program_spec"></a>
+	# Program Spec
 	
 	<a id="notes"></a>
 	# Notes
