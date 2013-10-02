@@ -46,6 +46,11 @@
 'snippets'	snipMate.txt	/*'snippets'*
 .snippet	snipMate.txt	/*.snippet*
 .snippets	snipMate.txt	/*.snippets*
+:Ack	ack.txt	/*:Ack*
+:AckAdd	ack.txt	/*:AckAdd*
+:AckFile	ack.txt	/*:AckFile*
+:AckFromSearch	ack.txt	/*:AckFromSearch*
+:AckHelp	ack.txt	/*:AckHelp*
 :CtrlP	ctrlp.txt	/*:CtrlP*
 :CtrlPBookmarkDir	ctrlp.txt	/*:CtrlPBookmarkDir*
 :CtrlPBookmarkDirAdd	ctrlp.txt	/*:CtrlPBookmarkDirAdd*
@@ -68,6 +73,9 @@
 :CtrlPUndo	ctrlp.txt	/*:CtrlPUndo*
 :GLVS	pi_getscript.txt	/*:GLVS*
 :GetLatestVimScripts_dat	pi_getscript.txt	/*:GetLatestVimScripts_dat*
+:LAck	ack.txt	/*:LAck*
+:LAckAdd	ack.txt	/*:LAckAdd*
+:LAckHelp	ack.txt	/*:LAckHelp*
 :Ri	ri.txt	/*:Ri*
 :RiExpand	ri.txt	/*:RiExpand*
 :Snippet	snippets_emu.txt	/*:Snippet*
@@ -123,6 +131,10 @@ VimExplorer-tempmark	vimExplorer.txt	/*VimExplorer-tempmark*
 VimExplorer-todo	vimExplorer.txt	/*VimExplorer-todo*
 VimExplorer-treebrowse	vimExplorer.txt	/*VimExplorer-treebrowse*
 VimExplorer-treehotkey	vimExplorer.txt	/*VimExplorer-treehotkey*
+ack	ack.txt	/*ack*
+ack-author	ack.txt	/*ack-author*
+ack-mappings	ack.txt	/*ack-mappings*
+ack.txt	ack.txt	/*ack.txt*
 basic-snippet	snippets_emu.txt	/*basic-snippet*
 cecutil	cecutil.txt	/*cecutil*
 cecutil-cmd	cecutil.txt	/*cecutil-cmd*

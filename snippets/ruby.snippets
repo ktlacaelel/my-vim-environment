@@ -225,6 +225,11 @@ snippet loo
 	loop { ${1} }
 snippet ea
 	each { |${1:e}| ${2} }
+snippet each
+	each do |${1:e}|
+	  ${2}
+	end
+	${3}
 snippet eab
 	each_byte { |${1:byte}| ${2} }
 snippet eac- each_char { |chr| .. }
