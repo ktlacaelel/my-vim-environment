@@ -1,3 +1,4 @@
+
 source ~/.vim/ftplugin/personal_settings.vim
 source ~/.vim/ftplugin/eatchar.vim
 source ~/.vim/ftplugin/personal_abbreviations.vim
@@ -11,36 +12,37 @@ source ~/.vim/ftplugin/ri.vim
 source ~/.vim/ftplugin/php_docblocks.vim
 source $VIMRUNTIME/macros/matchit.vim
 source ~/.vim/ftplugin/camelization.vim
+
+" Ag
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$',
-  \ 'file': '\.exe$\|\.so$\|\.dll$',
-  \ 'link': 'bad_symbolic_link',
-  \ }
-
+" Pathogen
 execute pathogen#infect()
 
-" "set rtp+=~/.vim/bundle/vundle/
-" "call vundle#rc()
-" "filetype off
+" Vundle
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+filetype off
 
-
-" "Bundle 'gmarik/vundle'
-
-" " My Bundles here:
-" "
-" " original repos on github
-" Bundle 'tpope/vim-fugitive'
-" Bundle 'lokaltog/vim-easymotion'
-" Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-" " vim-scripts repos
-" Bundle 'L9'
-" Bundle 'FuzzyFinder'
-" Bundle 'rails.vim'
-" " non github repos
-" Bundle 'git://git.wincent.com/command-t.git'
-
+Bundle 'jshint.vim'
+Bundle 'node.js'
+Bundle 'tpope/vim-abolish'
+Bundle 'tpope/vim-afterimage'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-flatfoot'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-git'
+Bundle 'tpope/vim-liquid'
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-obsession'
+Bundle 'tpope/vim-ragtag'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-rake'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'tpope/vim-vividchalk'
+Bundle 'samsonw/vim-task'
 
 syn on
 filetype on
@@ -48,7 +50,6 @@ filetype plugin indent on
 colors desert
 compiler ruby
 
-execute pathogen#infect()
 
 " * Funny stuff
 " :h 42
