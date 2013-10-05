@@ -44,12 +44,16 @@ Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'samsonw/vim-task'
 Bundle 'junegunn/seoul256.vim'
+Bundle 'Lokaltog/vim-distinguished'
+Bundle 'vim-scripts/desert256.vim'
 
 syn on
 filetype on
 filetype plugin indent on
-colors desert
+" colors desert
+colors desert256
 compiler ruby
+set t_Co=256
 
 
 " * Funny stuff

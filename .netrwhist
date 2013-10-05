@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/kazu/dev/git/nitrogen/vendor/public_renderer/commands'
+let g:netrw_dirhist_2='/Users/kazu/dev/git/backend_challenge/scoreboard_api/db/migrate'
+let g:netrw_dirhist_3='/Users/kazu/dev/git/nitrogen/public/lib/breezi/Renderers'
+let g:netrw_dirhist_4='/Users/kazu/dev/git/nitrogen/public/lib/breezi/Renderers/Public'
+let g:netrw_dirhist_5='/Users/kazu/dev/git/nitrogen/vendor/public_renderer/commands'
