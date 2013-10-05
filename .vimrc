@@ -26,27 +26,19 @@ filetype off
 
 Bundle 'jshint.vim'
 Bundle 'node.js'
-Bundle 'tpope/vim-abolish'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-markdown'
-Bundle 'tpope/vim-obsession'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-rake'
-Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'tpope/vim-vividchalk'
 Bundle 'samsonw/vim-task'
 Bundle 'junegunn/seoul256.vim'
-Bundle 'Lokaltog/vim-distinguished'
 Bundle 'vim-scripts/desert256.vim'
 
 syn on
 filetype on
 filetype plugin indent on
-" colors desert
 colors desert256
 compiler ruby
 set t_Co=256
