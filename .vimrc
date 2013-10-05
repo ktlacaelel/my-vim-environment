@@ -43,6 +43,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'samsonw/vim-task'
+Bundle 'junegunn/seoul256.vim'
 
 syn on
 filetype on
