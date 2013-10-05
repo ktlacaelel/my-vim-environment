@@ -48,7 +48,7 @@ filetype plugin indent on
 colors desert
 compiler ruby
 
-set syntax=chords
+execute pathogen#infect()
 
 " * Funny stuff
 " :h 42
