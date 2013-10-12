@@ -1,42 +1,35 @@
-# she
-snippet she
-	#!/usr/bin/env ${1:node}
-
-	${2:}
-
 # try
 snippet try
 	try {
-		${1:condition}
+		${1}
 	} catch (error) {
-		${2:handle error!}
+		${2}
 	}
 # forEach
-snippet fore 
+snippet forEach 
 	forEach(function (${1:item}) {
 		$1.${2:}
 	});
-snippet con
-	console.log(${1:something});${2:}
-snippet cons 
-	console.log('${1:something}');${2:}
-snippet di
-	dispatch('${1:something}');${2:}
+snippet console
+	console.log(${1});${2}
+snippet dispatch
+	dispatch('${1:event}');${2}
 # logger.log
-snippet log
-	logger.log(${1:something});${2:}
+snippet logger
+	logger.log(${1});${2}
 # require
-snippet r
-	require('${1:file}');
-	${2:// continue coding here..}
+snippet require('${1:file}');
+	${2}
 # Neon Class
-snippet c
-	Class(${1:scope}, '${2:`Camelize(Filename())`}')${3:}({
+snippet Class
+	Class('${1:`Camelize(Filename())`}')({
+
 		prototype : {
-			init : function init(config) {
-				${4:// body...}
-			}
+
+			${2}
+
 		}
+
 	});
 # Prototype
 snippet proto
@@ -58,13 +51,12 @@ snippet cap
 	${1:source}(function ${2:methodName}(${3:argument}) {
 		${4:code}
 	});
-snippet fu
+snippet method
 	/**
 	 * ${1:what it does in one line.}
 	 */
 	${2:methodName} : function $2(${3:arguments}) {
-		${4:implementation}
-	},
+	}${4}
 # if
 snippet if
 	if (${1:true}) {

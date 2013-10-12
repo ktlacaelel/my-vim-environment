@@ -35,6 +35,7 @@ Bundle 'mileszs/ack.vim'
 Bundle 'rainux/vim-desert-warm-256'
 Bundle 'desert.vim'
 Bundle 'motemen/git-vim'
+Bundle 'pangloss/vim-javascript'
 
 syn on
 filetype on
