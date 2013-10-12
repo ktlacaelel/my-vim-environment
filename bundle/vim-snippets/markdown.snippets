@@ -1,0 +1,153 @@
+# Anchor
+snippet cit
+	[$2](#citation${1:Citation Number})
+	1. ${2:Title} ${3:Link}
+				<a id="citation$1"></a>
+	${4:}
+# Question
+snippet q
+	${1:Question}?
+
+		${2:answer}
+
+	${3:next question}
+# Anchor
+snippet a
+	1. [${1:Some title here}](#${2:anchor_name})
+	${3:}
+
+	<a id="$2"></a>
+	# $1
+# Spec
+snippet spec
+	# Introduction
+
+	${1:What this is about?}
+
+	# Index
+	
+	1. [Problem](#problem)
+	1. [Requirements](#requirements)
+	1. [Constraints](#constraints)
+	1. [Observe](#observe)
+	1. [Hypothesis](#hypothesis)
+	1. [Experiments](#experiments)
+	1. [Dependancies](#dependancies)
+	1. [Black Box](#black_box)
+	1. [Theory of Operation](#theory_of_operation_spec)
+	1. [Functional Spec](#api_specification)
+	1. [Technical / Program Spec](#technical_program_spec)
+	1. [Usage Example](#usage_example)
+	1. [Notes](#notes)
+	1. [Benchmarks](#benchmarks)
+	1. [Sources](#sources)
+	1. [Questions](#questions)
+	
+	<a id="problem"></a>
+	# Problem
+
+	${2:What do we need to solve?}
+
+	<a id="requirements"></a>
+	# Requirements
+	
+	<a id="constraints"></a>
+	# Constraints
+	
+	<a id="observe"></a>
+	# Observe
+	
+	<a id="hypothesis"></a>
+	# Hypothesis
+
+	If ..........(I do this) .........., then ..........(this).......... will happen.
+
+	http://www.sciencebuddies.org/science-fair-projects/project_hypothesis.shtml#hypothesis
+
+	1. Dependent Variable: (You measure how much you give)
+	1. Independent Variable: (You measure its output)
+	
+	<a id="experiments"></a>
+	# Experiments
+	
+	<a id="dependancies"></a>
+	# Dependancies
+	
+	<a id="black_box"></a>
+	# Black Box
+	
+	<a id="theory_of_operation_spec"></a>
+	# Theory Of Operation
+
+	One or two brief paragraphs that explain how it works.
+
+	<a id="api_specification"></a>
+	# API Specification
+	
+	You must define the API, here.
+
+	<a id="technical_program_spec"></a>
+	# Technical / Program Spec
+	
+	how to implement specific algorithms and parts of the program.
+	if it is a widget, all the states of the widget shall be specified
+	here.
+
+	<a id="usage_example"></a>
+	# Usage Example
+
+	<a id="notes"></a>
+	# Notes
+	
+	<a id="sources"></a>
+	# Sources
+
+	<a id="menchmarks"></a>
+	# Benchmarks
+
+	<a id="questions"></a>
+	# Questions
+	
+# [link][]
+snippet []
+	[${1:link_id}][]${2}
+# [link][id]
+snippet [[
+	[${1:link}][${2:id}]${3}
+# [link](url)
+snippet [(
+	[${1:link}](http://${2:url})${3}
+# [link](email)
+snippet [@
+	[${1:link}(mailto:${2:email})${3}
+# [link](url "title")
+snippet [("
+	[${1:link}](${2:url} "${3:title}")${4}
+# [id]: url "title"
+snippet [:
+	[${1:id}]: http://${2:url} "${3:title}"
+# [id]: email "title"
+snippet [:@
+	[${1:id}]: mailto:${2:url} "${3:title}"
+# ![alt][id]
+snippet ![
+	![${1:alt}][${2:id}]${3}
+# ![alt](url)
+snippet !(
+	![${1:alt}](${2:url})${3}
+# ![alt](url "title")
+snippet !("
+	![${1:alt}](${2:url} "${3:title}")${4}
+# *emphasis* or _emphasis_
+snippet *
+	*${1}*${2}
+snippet _
+	_${1}_${2}
+# **strong** or __strong__
+snippet **
+	**${1}**${2}
+snippet __
+	__${1}__${2}
+# `code`
+snippet `
+	\`${1}\`${2}

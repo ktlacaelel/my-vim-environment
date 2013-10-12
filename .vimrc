@@ -11,6 +11,9 @@ source ~/.vim/ftplugin/php_docblocks.vim
 source $VIMRUNTIME/macros/matchit.vim
 source ~/.vim/ftplugin/camelization.vim
 
+" Custom Snippets
+let g:snippets_dir = "/Users/kazu/.vim/bundle/vim-snippets/"
+
 " Ag
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
@@ -27,6 +30,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-rails'
+Bundle 'ktlacaelel/vim-snippets'
 Bundle 'samsonw/vim-task'
 Bundle 'godlygeek/tabular'
 Bundle 'vim-ruby/vim-ruby'
