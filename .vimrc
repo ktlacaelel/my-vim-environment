@@ -24,22 +24,18 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 filetype off
 
-Bundle 'jshint.vim'
-Bundle 'node.js'
+Bundle 'vundle'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-rake'
 Bundle 'tpope/vim-surround'
 Bundle 'samsonw/vim-task'
-Bundle 'junegunn/seoul256.vim'
-Bundle 'vim-scripts/desert256.vim'
 
 syn on
 filetype on
 filetype plugin indent on
-colors desert256
+colors desert
 compiler ruby
 set t_Co=256
 
