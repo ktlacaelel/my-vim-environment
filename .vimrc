@@ -35,6 +35,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'samsonw/vim-task'
 Bundle 'junegunn/seoul256.vim'
 Bundle 'vim-scripts/desert256.vim'
+Bundle 'dag/vim-fish'
 
 syn on
 filetype on
