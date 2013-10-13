@@ -13,6 +13,9 @@ let g:snippets_dir = "/Users/kazu/.vim/bundle/vim-snippets/"
 " Ag
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
+" Solarized
+let g:solarized_termcolors=256
+
 " Pathogen
 execute pathogen#infect()
 
@@ -36,11 +39,13 @@ Bundle 'rainux/vim-desert-warm-256'
 Bundle 'desert.vim'
 Bundle 'motemen/git-vim'
 Bundle 'pangloss/vim-javascript'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'dag/vim-fish'
 
 syn on
 filetype on
 filetype plugin indent on
-colors desert
+colors solarized
 compiler ruby
 set t_Co=256
 
