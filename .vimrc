@@ -41,6 +41,7 @@ Bundle 'motemen/git-vim'
 Bundle 'pangloss/vim-javascript'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'dag/vim-fish'
+Bundle 'jshint.vim'
 
 syn on
 filetype on
