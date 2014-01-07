@@ -1,11 +1,11 @@
 
-source ~/dev/git/vim/get_visual.vim
-source ~/dev/git/vim/init.vim
-source ~/dev/git/vim/framework.vim
-source ~/dev/git/vim/string.vim
-source ~/dev/git/vim/string_usage.vim
-source ~/dev/git/vim/present.vim
-source ~/dev/git/vim/search_cword.vim
+" source ~/dev/git/vim/get_visual.vim
+" source ~/dev/git/vim/init.vim
+" source ~/dev/git/vim/framework.vim
+" source ~/dev/git/vim/string.vim
+" source ~/dev/git/vim/string_usage.vim
+" source ~/dev/git/vim/present.vim
+" source ~/dev/git/vim/search_cword.vim
   
 " http://www.cs.swarthmore.edu/help/vim/indenting.html 
 set expandtab     " don't use actual tab character (ctrl-v)
