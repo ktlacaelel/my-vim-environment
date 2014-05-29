@@ -29,6 +29,10 @@ set hls
 set nocompatible
 set incsearch
 
+" Menu coloring.
+highlight Pmenu ctermfg=cyan ctermbg=black
+highlight PmenuSel ctermfg=black ctermbg=cyan
+
 set grepprg='ag'
 
 " Restore cursor position
