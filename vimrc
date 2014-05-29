@@ -31,14 +31,13 @@ set incsearch
 
 set grepprg='ag'
 
-execute pathogen#infect()
-
-" Custom Snippets
-let g:snippets_dir = "/Users/kazu/.vim/bundle/vim-snippets/"
-
 " Restore cursor position
 autocmd BufReadPost *
   \ if line("'\"") > 1 && line("'\"") <= line("$") |
   \   exe "normal! g`\"" |
   \ endif
 
+execute pathogen#infect()
+
+" Custom Snippets
+let g:snippets_dir = '/Users/kazu/dev/git/vim-snippets/'
